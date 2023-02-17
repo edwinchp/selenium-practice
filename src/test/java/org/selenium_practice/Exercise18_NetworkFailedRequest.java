@@ -16,7 +16,7 @@ import static java.util.Arrays.asList;
 
 public class Exercise18_NetworkFailedRequest {
     public static void main(String[] args) throws Throwable {
-        System.setProperty("webdriver.chrome.driver", "/Users/edwin.chi/Downloads/chrome/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/home/edwinchp/Documents/drivers/chromedriver");
         ChromeDriver driver = new ChromeDriver();
 
         DevTools devTools = driver.getDevTools();
