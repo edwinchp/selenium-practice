@@ -20,7 +20,8 @@ public class Exercise22_JavascriptErrors {
         driver.get("https://phptravels.com/pricing");
 
         /*
-           Logs all the errors related to JS files.
+           Logs all the errors related to JS files when the page is loaded
+           or some activity triggers the error.
          */
 
         LogEntries entry = driver.manage().logs().get(LogType.BROWSER);
